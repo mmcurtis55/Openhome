@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81D59C341BEEE6A000849BC8 /* Openhome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C331BEEE6A000849BC8 /* Openhome.swift */; };
+		81D59C361BEEEAE400849BC8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C351BEEEAE400849BC8 /* Constants.swift */; };
+		81D59C451BEEFED700849BC8 /* Avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C391BEEFED700849BC8 /* Avatar.png */; };
+		81D59C461BEEFED700849BC8 /* back  icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C3A1BEEFED700849BC8 /* back  icon.png */; };
+		81D59C471BEEFED700849BC8 /* Home Card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C3B1BEEFED700849BC8 /* Home Card.jpg */; };
+		81D59C481BEEFED700849BC8 /* Home Interior 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C3C1BEEFED700849BC8 /* Home Interior 1.jpg */; };
+		81D59C491BEEFED700849BC8 /* Home Interior 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C3D1BEEFED700849BC8 /* Home Interior 2.jpg */; };
+		81D59C4A1BEEFED700849BC8 /* Home Interior 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C3E1BEEFED700849BC8 /* Home Interior 3.jpg */; };
+		81D59C4B1BEEFED700849BC8 /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C3F1BEEFED700849BC8 /* logo_white.png */; };
+		81D59C4C1BEEFED700849BC8 /* map pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C401BEEFED700849BC8 /* map pin.png */; };
+		81D59C4D1BEEFED700849BC8 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C411BEEFED700849BC8 /* Menu.png */; };
+		81D59C4E1BEEFED700849BC8 /* Open Home Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C421BEEFED700849BC8 /* Open Home Button.png */; };
+		81D59C4F1BEEFED700849BC8 /* Start Tour Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C431BEEFED700849BC8 /* Start Tour Button.png */; };
+		81D59C501BEEFED700849BC8 /* Wireless.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C441BEEFED700849BC8 /* Wireless.png */; };
+		81D59C581BEF0BB800849BC8 /* BRANDON_BLK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C561BEF0BB800849BC8 /* BRANDON_BLK.TTF */; };
+		81D59C591BEF0BB800849BC8 /* BRANDON_REG.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C571BEF0BB800849BC8 /* BRANDON_REG.TTF */; };
+		81D59C5B1BEF0E0600849BC8 /* GrantedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C5A1BEF0E0600849BC8 /* GrantedViewController.swift */; };
+		81D59C5D1BEF1A2300849BC8 /* Down Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C5C1BEF1A2300849BC8 /* Down Arrow.png */; };
+		81D59C631BEFA79900849BC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C621BEFA79900849BC8 /* ViewController.swift */; };
+		81D59C661BEFA7C000849BC8 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C641BEFA7C000849BC8 /* PopUpViewController.xib */; };
+		81D59C671BEFA7C000849BC8 /* PopUpViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C651BEFA7C000849BC8 /* PopUpViewControllerSwift.swift */; };
+		81D59C691BEFAAEC00849BC8 /* VisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C681BEFAAEC00849BC8 /* VisitViewController.swift */; };
+		81D59C6E1BEFAB3C00849BC8 /* Dining Room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C6A1BEFAB3C00849BC8 /* Dining Room.jpg */; };
+		81D59C6F1BEFAB3C00849BC8 /* Swimming Pool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C6B1BEFAB3C00849BC8 /* Swimming Pool.jpg */; };
+		81D59C701BEFAB3C00849BC8 /* Kitchen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C6C1BEFAB3C00849BC8 /* Kitchen.jpg */; };
+		81D59C711BEFAB3C00849BC8 /* Living Room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C6D1BEFAB3C00849BC8 /* Living Room.jpg */; };
+		81D59C731BEFB42E00849BC8 /* VisitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C721BEFB42E00849BC8 /* VisitView.xib */; };
+		81D59C761BEFC00300849BC8 /* Pods_Openhome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C9DDC8BE746CDCF62D779 /* Pods_Openhome.framework */; };
+		81D59C771BEFC00300849BC8 /* Pods_Openhome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 143C9DDC8BE746CDCF62D779 /* Pods_Openhome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		81D59C7A1BEFC30000849BC8 /* PopUpViewController_iPhone6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C791BEFC30000849BC8 /* PopUpViewController_iPhone6.xib */; };
+		81D59C7C1BEFCB4700849BC8 /* Seller1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C7B1BEFCB4700849BC8 /* Seller1.png */; };
+		81D59C7E1BEFCD1900849BC8 /* UnlockedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C7D1BEFCD1900849BC8 /* UnlockedViewController.swift */; };
+		81D59C801BEFCD2300849BC8 /* LockedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D59C7F1BEFCD2300849BC8 /* LockedViewController.swift */; };
+		81D59C821BEFD10F00849BC8 /* SELLER2.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D59C811BEFD10F00849BC8 /* SELLER2.png */; };
+		81D91DC81BEE588E0056977E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D91DC71BEE588E0056977E /* AppDelegate.swift */; };
+		81D91DCD1BEE588E0056977E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D91DCB1BEE588E0056977E /* Main.storyboard */; };
+		81D91DCF1BEE588E0056977E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D91DCE1BEE588E0056977E /* Assets.xcassets */; };
+		81D91DDD1BEE588E0056977E /* OpenhomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D91DDC1BEE588E0056977E /* OpenhomeTests.swift */; };
+		81D91DE81BEE588E0056977E /* OpenhomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D91DE71BEE588E0056977E /* OpenhomeUITests.swift */; };
+		81D91DF61BEEAEC40056977E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91DF51BEEAEC40056977E /* AVFoundation.framework */; };
+		81D91DF81BEEAEC80056977E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91DF71BEEAEC80056977E /* CoreData.framework */; };
+		81D91DFA1BEEAED20056977E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91DF91BEEAED20056977E /* SystemConfiguration.framework */; };
+		81D91DFC1BEEAED80056977E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91DFB1BEEAED80056977E /* QuartzCore.framework */; };
+		81D91DFE1BEEAEDF0056977E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91DFD1BEEAEDF0056977E /* OpenGLES.framework */; };
+		81D91E001BEEAEF00056977E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91DFF1BEEAEF00056977E /* libz.tbd */; };
+		81D91E041BEEAF0A0056977E /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91E031BEEAF0A0056977E /* libicucore.tbd */; };
+		81D91E061BEEAF120056977E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91E051BEEAF120056977E /* libc++.tbd */; };
+		81D91E081BEEAF1A0056977E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91E071BEEAF1A0056977E /* ImageIO.framework */; };
+		81D91E0A1BEEAF1F0056977E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91E091BEEAF1F0056977E /* GLKit.framework */; };
+		81D91E0C1BEEAF270056977E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D91E0B1BEEAF270056977E /* CoreLocation.framework */; };
+		81D91E121BEED7F80056977E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D91E111BEED7F80056977E /* Launch Screen.storyboard */; };
+		81D91E141BEEDBC90056977E /* teal logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D91E131BEEDBC90056977E /* teal logo.png */; };
+		F54A8A05FD0CCC5FFBB0B1C3 /* Pods_Openhome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C9DDC8BE746CDCF62D779 /* Pods_Openhome.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81D91DD91BEE588E0056977E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D91DBC1BEE588D0056977E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D91DC31BEE588D0056977E;
+			remoteInfo = Openhome;
+		};
+		81D91DE41BEE588E0056977E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D91DBC1BEE588D0056977E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D91DC31BEE588D0056977E;
+			remoteInfo = Openhome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81D59C781BEFC00400849BC8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				81D59C771BEFC00300849BC8 /* Pods_Openhome.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		143C9DDC8BE746CDCF62D779 /* Pods_Openhome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Openhome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAC063CC4B73C9312B6F99C /* Pods-Openhome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Openhome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Openhome/Pods-Openhome.debug.xcconfig"; sourceTree = "<group>"; };
+		81D59C331BEEE6A000849BC8 /* Openhome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Openhome.swift; sourceTree = "<group>"; };
+		81D59C351BEEEAE400849BC8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		81D59C391BEEFED700849BC8 /* Avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Avatar.png; path = Assets.xcassets/Avatar.png; sourceTree = "<group>"; };
+		81D59C3A1BEEFED700849BC8 /* back  icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back  icon.png"; path = "Assets.xcassets/back  icon.png"; sourceTree = "<group>"; };
+		81D59C3B1BEEFED700849BC8 /* Home Card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Home Card.jpg"; path = "Assets.xcassets/Home Card.jpg"; sourceTree = "<group>"; };
+		81D59C3C1BEEFED700849BC8 /* Home Interior 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Home Interior 1.jpg"; path = "Assets.xcassets/Home Interior 1.jpg"; sourceTree = "<group>"; };
+		81D59C3D1BEEFED700849BC8 /* Home Interior 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Home Interior 2.jpg"; path = "Assets.xcassets/Home Interior 2.jpg"; sourceTree = "<group>"; };
+		81D59C3E1BEEFED700849BC8 /* Home Interior 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Home Interior 3.jpg"; path = "Assets.xcassets/Home Interior 3.jpg"; sourceTree = "<group>"; };
+		81D59C3F1BEEFED700849BC8 /* logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_white.png; path = Assets.xcassets/logo_white.png; sourceTree = "<group>"; };
+		81D59C401BEEFED700849BC8 /* map pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map pin.png"; path = "Assets.xcassets/map pin.png"; sourceTree = "<group>"; };
+		81D59C411BEEFED700849BC8 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Menu.png; path = Assets.xcassets/Menu.png; sourceTree = "<group>"; };
+		81D59C421BEEFED700849BC8 /* Open Home Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Open Home Button.png"; path = "Assets.xcassets/Open Home Button.png"; sourceTree = "<group>"; };
+		81D59C431BEEFED700849BC8 /* Start Tour Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Start Tour Button.png"; path = "Assets.xcassets/Start Tour Button.png"; sourceTree = "<group>"; };
+		81D59C441BEEFED700849BC8 /* Wireless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wireless.png; path = Assets.xcassets/Wireless.png; sourceTree = "<group>"; };
+		81D59C561BEF0BB800849BC8 /* BRANDON_BLK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BRANDON_BLK.TTF; sourceTree = "<group>"; };
+		81D59C571BEF0BB800849BC8 /* BRANDON_REG.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BRANDON_REG.TTF; sourceTree = "<group>"; };
+		81D59C5A1BEF0E0600849BC8 /* GrantedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrantedViewController.swift; sourceTree = "<group>"; };
+		81D59C5C1BEF1A2300849BC8 /* Down Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Down Arrow.png"; path = "Assets.xcassets/Down Arrow.png"; sourceTree = "<group>"; };
+		81D59C621BEFA79900849BC8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81D59C641BEFA7C000849BC8 /* PopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
+		81D59C651BEFA7C000849BC8 /* PopUpViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewControllerSwift.swift; sourceTree = "<group>"; };
+		81D59C681BEFAAEC00849BC8 /* VisitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitViewController.swift; sourceTree = "<group>"; };
+		81D59C6A1BEFAB3C00849BC8 /* Dining Room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Dining Room.jpg"; path = "Assets.xcassets/Dining Room.jpg"; sourceTree = "<group>"; };
+		81D59C6B1BEFAB3C00849BC8 /* Swimming Pool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Swimming Pool.jpg"; path = "Assets.xcassets/Swimming Pool.jpg"; sourceTree = "<group>"; };
+		81D59C6C1BEFAB3C00849BC8 /* Kitchen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kitchen.jpg; path = Assets.xcassets/Kitchen.jpg; sourceTree = "<group>"; };
+		81D59C6D1BEFAB3C00849BC8 /* Living Room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Living Room.jpg"; path = "Assets.xcassets/Living Room.jpg"; sourceTree = "<group>"; };
+		81D59C721BEFB42E00849BC8 /* VisitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitView.xib; sourceTree = "<group>"; };
+		81D59C741BEFBF0100849BC8 /* libdyld.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdyld.tbd; path = usr/lib/system/libdyld.tbd; sourceTree = SDKROOT; };
+		81D59C791BEFC30000849BC8 /* PopUpViewController_iPhone6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpViewController_iPhone6.xib; sourceTree = "<group>"; };
+		81D59C7B1BEFCB4700849BC8 /* Seller1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seller1.png; sourceTree = "<group>"; };
+		81D59C7D1BEFCD1900849BC8 /* UnlockedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockedViewController.swift; sourceTree = "<group>"; };
+		81D59C7F1BEFCD2300849BC8 /* LockedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedViewController.swift; sourceTree = "<group>"; };
+		81D59C811BEFD10F00849BC8 /* SELLER2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SELLER2.png; sourceTree = "<group>"; };
+		81D91DC41BEE588E0056977E /* Openhome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Openhome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D91DC71BEE588E0056977E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81D91DCC1BEE588E0056977E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81D91DCE1BEE588E0056977E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81D91DD31BEE588E0056977E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D91DD81BEE588E0056977E /* OpenhomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenhomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D91DDC1BEE588E0056977E /* OpenhomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenhomeTests.swift; sourceTree = "<group>"; };
+		81D91DDE1BEE588E0056977E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D91DE31BEE588E0056977E /* OpenhomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenhomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D91DE71BEE588E0056977E /* OpenhomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenhomeUITests.swift; sourceTree = "<group>"; };
+		81D91DE91BEE588E0056977E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D91DF51BEEAEC40056977E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		81D91DF71BEEAEC80056977E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		81D91DF91BEEAED20056977E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		81D91DFB1BEEAED80056977E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		81D91DFD1BEEAEDF0056977E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		81D91DFF1BEEAEF00056977E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		81D91E011BEEAEFF0056977E /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		81D91E031BEEAF0A0056977E /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		81D91E051BEEAF120056977E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		81D91E071BEEAF1A0056977E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		81D91E091BEEAF1F0056977E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		81D91E0B1BEEAF270056977E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		81D91E111BEED7F80056977E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		81D91E131BEEDBC90056977E /* teal logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teal logo.png"; sourceTree = "<group>"; };
+		C3C50F8F4ED85ED407072335 /* Pods-Openhome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Openhome.release.xcconfig"; path = "Pods/Target Support Files/Pods-Openhome/Pods-Openhome.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D91DC11BEE588D0056977E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D91E0C1BEEAF270056977E /* CoreLocation.framework in Frameworks */,
+				81D91E0A1BEEAF1F0056977E /* GLKit.framework in Frameworks */,
+				81D91E081BEEAF1A0056977E /* ImageIO.framework in Frameworks */,
+				81D59C761BEFC00300849BC8 /* Pods_Openhome.framework in Frameworks */,
+				81D91E061BEEAF120056977E /* libc++.tbd in Frameworks */,
+				81D91E041BEEAF0A0056977E /* libicucore.tbd in Frameworks */,
+				81D91E001BEEAEF00056977E /* libz.tbd in Frameworks */,
+				81D91DFE1BEEAEDF0056977E /* OpenGLES.framework in Frameworks */,
+				81D91DFC1BEEAED80056977E /* QuartzCore.framework in Frameworks */,
+				81D91DFA1BEEAED20056977E /* SystemConfiguration.framework in Frameworks */,
+				81D91DF81BEEAEC80056977E /* CoreData.framework in Frameworks */,
+				81D91DF61BEEAEC40056977E /* AVFoundation.framework in Frameworks */,
+				F54A8A05FD0CCC5FFBB0B1C3 /* Pods_Openhome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D91DD51BEE588E0056977E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D91DE01BEE588E0056977E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0789608BECABF7D5EB2B272E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D59C741BEFBF0100849BC8 /* libdyld.tbd */,
+				81D91E0B1BEEAF270056977E /* CoreLocation.framework */,
+				81D91E091BEEAF1F0056977E /* GLKit.framework */,
+				81D91E071BEEAF1A0056977E /* ImageIO.framework */,
+				81D91E051BEEAF120056977E /* libc++.tbd */,
+				81D91E031BEEAF0A0056977E /* libicucore.tbd */,
+				81D91E011BEEAEFF0056977E /* libicucore.A.tbd */,
+				81D91DFF1BEEAEF00056977E /* libz.tbd */,
+				81D91DFD1BEEAEDF0056977E /* OpenGLES.framework */,
+				81D91DFB1BEEAED80056977E /* QuartzCore.framework */,
+				81D91DF91BEEAED20056977E /* SystemConfiguration.framework */,
+				81D91DF71BEEAEC80056977E /* CoreData.framework */,
+				81D91DF51BEEAEC40056977E /* AVFoundation.framework */,
+				143C9DDC8BE746CDCF62D779 /* Pods_Openhome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D59C511BEEFEEE00849BC8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				81D59C811BEFD10F00849BC8 /* SELLER2.png */,
+				81D59C7B1BEFCB4700849BC8 /* Seller1.png */,
+				81D59C6A1BEFAB3C00849BC8 /* Dining Room.jpg */,
+				81D59C6B1BEFAB3C00849BC8 /* Swimming Pool.jpg */,
+				81D59C6C1BEFAB3C00849BC8 /* Kitchen.jpg */,
+				81D59C6D1BEFAB3C00849BC8 /* Living Room.jpg */,
+				81D59C391BEEFED700849BC8 /* Avatar.png */,
+				81D59C3A1BEEFED700849BC8 /* back  icon.png */,
+				81D59C3B1BEEFED700849BC8 /* Home Card.jpg */,
+				81D59C3C1BEEFED700849BC8 /* Home Interior 1.jpg */,
+				81D59C3D1BEEFED700849BC8 /* Home Interior 2.jpg */,
+				81D59C3E1BEEFED700849BC8 /* Home Interior 3.jpg */,
+				81D59C3F1BEEFED700849BC8 /* logo_white.png */,
+				81D59C401BEEFED700849BC8 /* map pin.png */,
+				81D59C411BEEFED700849BC8 /* Menu.png */,
+				81D59C421BEEFED700849BC8 /* Open Home Button.png */,
+				81D59C431BEEFED700849BC8 /* Start Tour Button.png */,
+				81D59C441BEEFED700849BC8 /* Wireless.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		81D91DBB1BEE588D0056977E = {
+			isa = PBXGroup;
+			children = (
+				81D91DC61BEE588E0056977E /* Openhome */,
+				81D91DDB1BEE588E0056977E /* OpenhomeTests */,
+				81D91DE61BEE588E0056977E /* OpenhomeUITests */,
+				81D91DC51BEE588E0056977E /* Products */,
+				C7013B23F7605F5520D14EFA /* Pods */,
+				0789608BECABF7D5EB2B272E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81D91DC51BEE588E0056977E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D91DC41BEE588E0056977E /* Openhome.app */,
+				81D91DD81BEE588E0056977E /* OpenhomeTests.xctest */,
+				81D91DE31BEE588E0056977E /* OpenhomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D91DC61BEE588E0056977E /* Openhome */ = {
+			isa = PBXGroup;
+			children = (
+				81D91E111BEED7F80056977E /* Launch Screen.storyboard */,
+				81D59C561BEF0BB800849BC8 /* BRANDON_BLK.TTF */,
+				81D59C5C1BEF1A2300849BC8 /* Down Arrow.png */,
+				81D59C571BEF0BB800849BC8 /* BRANDON_REG.TTF */,
+				81D59C331BEEE6A000849BC8 /* Openhome.swift */,
+				81D59C7D1BEFCD1900849BC8 /* UnlockedViewController.swift */,
+				81D59C7F1BEFCD2300849BC8 /* LockedViewController.swift */,
+				81D59C511BEEFEEE00849BC8 /* images */,
+				81D59C351BEEEAE400849BC8 /* Constants.swift */,
+				81D91DC71BEE588E0056977E /* AppDelegate.swift */,
+				81D59C5A1BEF0E0600849BC8 /* GrantedViewController.swift */,
+				81D91E131BEEDBC90056977E /* teal logo.png */,
+				81D59C621BEFA79900849BC8 /* ViewController.swift */,
+				81D59C681BEFAAEC00849BC8 /* VisitViewController.swift */,
+				81D59C641BEFA7C000849BC8 /* PopUpViewController.xib */,
+				81D59C721BEFB42E00849BC8 /* VisitView.xib */,
+				81D59C791BEFC30000849BC8 /* PopUpViewController_iPhone6.xib */,
+				81D59C651BEFA7C000849BC8 /* PopUpViewControllerSwift.swift */,
+				81D91DCB1BEE588E0056977E /* Main.storyboard */,
+				81D91DCE1BEE588E0056977E /* Assets.xcassets */,
+				81D91DD31BEE588E0056977E /* Info.plist */,
+			);
+			path = Openhome;
+			sourceTree = "<group>";
+		};
+		81D91DDB1BEE588E0056977E /* OpenhomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				81D91DDC1BEE588E0056977E /* OpenhomeTests.swift */,
+				81D91DDE1BEE588E0056977E /* Info.plist */,
+			);
+			path = OpenhomeTests;
+			sourceTree = "<group>";
+		};
+		81D91DE61BEE588E0056977E /* OpenhomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81D91DE71BEE588E0056977E /* OpenhomeUITests.swift */,
+				81D91DE91BEE588E0056977E /* Info.plist */,
+			);
+			path = OpenhomeUITests;
+			sourceTree = "<group>";
+		};
+		C7013B23F7605F5520D14EFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC063CC4B73C9312B6F99C /* Pods-Openhome.debug.xcconfig */,
+				C3C50F8F4ED85ED407072335 /* Pods-Openhome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D91DC31BEE588D0056977E /* Openhome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D91DEC1BEE588E0056977E /* Build configuration list for PBXNativeTarget "Openhome" */;
+			buildPhases = (
+				3AB4E42E0BA5D530043F30EF /* Check Pods Manifest.lock */,
+				81D91DC01BEE588D0056977E /* Sources */,
+				81D91DC11BEE588D0056977E /* Frameworks */,
+				81D91DC21BEE588D0056977E /* Resources */,
+				63BB57FFD051B52B10F91F28 /* Copy Pods Resources */,
+				F87995C02396DD11BA9F3476 /* Embed Pods Frameworks */,
+				81D59C781BEFC00400849BC8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Openhome;
+			productName = Openhome;
+			productReference = 81D91DC41BEE588E0056977E /* Openhome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81D91DD71BEE588E0056977E /* OpenhomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D91DEF1BEE588E0056977E /* Build configuration list for PBXNativeTarget "OpenhomeTests" */;
+			buildPhases = (
+				81D91DD41BEE588E0056977E /* Sources */,
+				81D91DD51BEE588E0056977E /* Frameworks */,
+				81D91DD61BEE588E0056977E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D91DDA1BEE588E0056977E /* PBXTargetDependency */,
+			);
+			name = OpenhomeTests;
+			productName = OpenhomeTests;
+			productReference = 81D91DD81BEE588E0056977E /* OpenhomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81D91DE21BEE588E0056977E /* OpenhomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D91DF21BEE588E0056977E /* Build configuration list for PBXNativeTarget "OpenhomeUITests" */;
+			buildPhases = (
+				81D91DDF1BEE588E0056977E /* Sources */,
+				81D91DE01BEE588E0056977E /* Frameworks */,
+				81D91DE11BEE588E0056977E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D91DE51BEE588E0056977E /* PBXTargetDependency */,
+			);
+			name = OpenhomeUITests;
+			productName = OpenhomeUITests;
+			productReference = 81D91DE31BEE588E0056977E /* OpenhomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D91DBC1BEE588D0056977E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alejandro Silveyra";
+				TargetAttributes = {
+					81D91DC31BEE588D0056977E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = H9A487VWR3;
+					};
+					81D91DD71BEE588E0056977E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 81D91DC31BEE588D0056977E;
+					};
+					81D91DE21BEE588E0056977E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 81D91DC31BEE588D0056977E;
+					};
+				};
+			};
+			buildConfigurationList = 81D91DBF1BEE588D0056977E /* Build configuration list for PBXProject "Openhome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81D91DBB1BEE588D0056977E;
+			productRefGroup = 81D91DC51BEE588E0056977E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D91DC31BEE588D0056977E /* Openhome */,
+				81D91DD71BEE588E0056977E /* OpenhomeTests */,
+				81D91DE21BEE588E0056977E /* OpenhomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D91DC21BEE588D0056977E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D59C7C1BEFCB4700849BC8 /* Seller1.png in Resources */,
+				81D59C481BEEFED700849BC8 /* Home Interior 1.jpg in Resources */,
+				81D59C451BEEFED700849BC8 /* Avatar.png in Resources */,
+				81D59C4B1BEEFED700849BC8 /* logo_white.png in Resources */,
+				81D59C6F1BEFAB3C00849BC8 /* Swimming Pool.jpg in Resources */,
+				81D59C711BEFAB3C00849BC8 /* Living Room.jpg in Resources */,
+				81D59C4A1BEEFED700849BC8 /* Home Interior 3.jpg in Resources */,
+				81D59C581BEF0BB800849BC8 /* BRANDON_BLK.TTF in Resources */,
+				81D91DCF1BEE588E0056977E /* Assets.xcassets in Resources */,
+				81D91DCD1BEE588E0056977E /* Main.storyboard in Resources */,
+				81D91E121BEED7F80056977E /* Launch Screen.storyboard in Resources */,
+				81D59C4C1BEEFED700849BC8 /* map pin.png in Resources */,
+				81D59C7A1BEFC30000849BC8 /* PopUpViewController_iPhone6.xib in Resources */,
+				81D91E141BEEDBC90056977E /* teal logo.png in Resources */,
+				81D59C461BEEFED700849BC8 /* back  icon.png in Resources */,
+				81D59C821BEFD10F00849BC8 /* SELLER2.png in Resources */,
+				81D59C661BEFA7C000849BC8 /* PopUpViewController.xib in Resources */,
+				81D59C4D1BEEFED700849BC8 /* Menu.png in Resources */,
+				81D59C5D1BEF1A2300849BC8 /* Down Arrow.png in Resources */,
+				81D59C491BEEFED700849BC8 /* Home Interior 2.jpg in Resources */,
+				81D59C4F1BEEFED700849BC8 /* Start Tour Button.png in Resources */,
+				81D59C701BEFAB3C00849BC8 /* Kitchen.jpg in Resources */,
+				81D59C6E1BEFAB3C00849BC8 /* Dining Room.jpg in Resources */,
+				81D59C731BEFB42E00849BC8 /* VisitView.xib in Resources */,
+				81D59C591BEF0BB800849BC8 /* BRANDON_REG.TTF in Resources */,
+				81D59C501BEEFED700849BC8 /* Wireless.png in Resources */,
+				81D59C4E1BEEFED700849BC8 /* Open Home Button.png in Resources */,
+				81D59C471BEEFED700849BC8 /* Home Card.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D91DD61BEE588E0056977E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D91DE11BEE588E0056977E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AB4E42E0BA5D530043F30EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63BB57FFD051B52B10F91F28 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Openhome/Pods-Openhome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87995C02396DD11BA9F3476 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Openhome/Pods-Openhome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D91DC01BEE588D0056977E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D59C631BEFA79900849BC8 /* ViewController.swift in Sources */,
+				81D59C801BEFCD2300849BC8 /* LockedViewController.swift in Sources */,
+				81D59C691BEFAAEC00849BC8 /* VisitViewController.swift in Sources */,
+				81D59C341BEEE6A000849BC8 /* Openhome.swift in Sources */,
+				81D59C7E1BEFCD1900849BC8 /* UnlockedViewController.swift in Sources */,
+				81D91DC81BEE588E0056977E /* AppDelegate.swift in Sources */,
+				81D59C361BEEEAE400849BC8 /* Constants.swift in Sources */,
+				81D59C5B1BEF0E0600849BC8 /* GrantedViewController.swift in Sources */,
+				81D59C671BEFA7C000849BC8 /* PopUpViewControllerSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D91DD41BEE588E0056977E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D91DDD1BEE588E0056977E /* OpenhomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D91DDF1BEE588E0056977E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D91DE81BEE588E0056977E /* OpenhomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81D91DDA1BEE588E0056977E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D91DC31BEE588D0056977E /* Openhome */;
+			targetProxy = 81D91DD91BEE588E0056977E /* PBXContainerItemProxy */;
+		};
+		81D91DE51BEE588E0056977E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D91DC31BEE588D0056977E /* Openhome */;
+			targetProxy = 81D91DE41BEE588E0056977E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81D91DCB1BEE588E0056977E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D91DCC1BEE588E0056977E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D91DEA1BEE588E0056977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81D91DEB1BEE588E0056977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D91DED1BEE588E0056977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAC063CC4B73C9312B6F99C /* Pods-Openhome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Openhome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openhome.Openhome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		81D91DEE1BEE588E0056977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C50F8F4ED85ED407072335 /* Pods-Openhome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Openhome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openhome.Openhome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		81D91DF01BEE588E0056977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenhomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openhome.OpenhomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Openhome.app/Openhome";
+			};
+			name = Debug;
+		};
+		81D91DF11BEE588E0056977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenhomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openhome.OpenhomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Openhome.app/Openhome";
+			};
+			name = Release;
+		};
+		81D91DF31BEE588E0056977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenhomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openhome.OpenhomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Openhome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		81D91DF41BEE588E0056977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenhomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openhome.OpenhomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Openhome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D91DBF1BEE588D0056977E /* Build configuration list for PBXProject "Openhome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D91DEA1BEE588E0056977E /* Debug */,
+				81D91DEB1BEE588E0056977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D91DEC1BEE588E0056977E /* Build configuration list for PBXNativeTarget "Openhome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D91DED1BEE588E0056977E /* Debug */,
+				81D91DEE1BEE588E0056977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D91DEF1BEE588E0056977E /* Build configuration list for PBXNativeTarget "OpenhomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D91DF01BEE588E0056977E /* Debug */,
+				81D91DF11BEE588E0056977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D91DF21BEE588E0056977E /* Build configuration list for PBXNativeTarget "OpenhomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D91DF31BEE588E0056977E /* Debug */,
+				81D91DF41BEE588E0056977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D91DBC1BEE588D0056977E /* Project object */;
+}

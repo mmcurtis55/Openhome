@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="BRANDON_REG.TTF">
+            <string>BrandonGrotesque-Regular</string>
+            <string>BrandonGrotesque-Regular</string>
+            <string>BrandonGrotesque-Regular</string>
+            <string>BrandonGrotesque-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUpViewControllerSwift" customModule="Openhome" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="jQj-Y6-ToN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="VisitView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="390"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIVING ROOM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hE-2A-FR5">
+                    <rect key="frame" x="8" y="8" width="390" height="35"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ky5-9d-OnI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="21"/>
+                    <color key="textColor" red="0.87843137250000003" green="0.12549019610000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Living Room.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ZEP-6e-8zV">
+                    <rect key="frame" x="0.0" y="51" width="406" height="221"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZEP-6e-8zV" secondAttribute="height" multiplier="406:221" id="7Gu-tj-Shq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•  NATURAL LIGHT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saZ-6p-8wz">
+                    <rect key="frame" x="8" y="291" width="390" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="NnA-1K-sjy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•  FLOOR-TO-CEILING WINDOWS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bbx-3N-J35">
+                    <rect key="frame" x="8" y="320" width="390" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="hq5-Ld-cIT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•  OPEN AREA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pG-OJ-ucF">
+                    <rect key="frame" x="8" y="349" width="390" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="pDO-Op-lpG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bbx-3N-J35" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="2JS-pe-Q14"/>
+                <constraint firstItem="4hE-2A-FR5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="6yM-98-YOr"/>
+                <constraint firstItem="4hE-2A-FR5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="7Ua-Bi-b5R"/>
+                <constraint firstItem="ZEP-6e-8zV" firstAttribute="top" secondItem="4hE-2A-FR5" secondAttribute="bottom" constant="8" id="7pB-gL-lsu"/>
+                <constraint firstItem="ZEP-6e-8zV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C7a-iP-czQ"/>
+                <constraint firstAttribute="trailing" secondItem="4pG-OJ-ucF" secondAttribute="trailing" constant="8" id="Dhx-Cm-xZB"/>
+                <constraint firstAttribute="trailing" secondItem="ZEP-6e-8zV" secondAttribute="trailing" id="HsP-1s-b8u"/>
+                <constraint firstItem="saZ-6p-8wz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="M7u-MF-0Iu"/>
+                <constraint firstItem="Bbx-3N-J35" firstAttribute="top" secondItem="saZ-6p-8wz" secondAttribute="bottom" constant="8" id="S96-sh-np0"/>
+                <constraint firstAttribute="trailing" secondItem="4hE-2A-FR5" secondAttribute="trailing" constant="8" id="Sy4-rg-MWX"/>
+                <constraint firstAttribute="trailing" secondItem="saZ-6p-8wz" secondAttribute="trailing" constant="8" id="Z1k-EE-W5v"/>
+                <constraint firstItem="4pG-OJ-ucF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="bKh-KM-4Oh"/>
+                <constraint firstItem="4pG-OJ-ucF" firstAttribute="top" secondItem="Bbx-3N-J35" secondAttribute="bottom" constant="8" id="eVu-Ae-gs6"/>
+                <constraint firstItem="saZ-6p-8wz" firstAttribute="top" secondItem="ZEP-6e-8zV" secondAttribute="bottom" constant="19" id="lcf-kQ-oby"/>
+                <constraint firstAttribute="bottom" secondItem="4pG-OJ-ucF" secondAttribute="bottom" constant="20" id="tM6-Gd-kVT"/>
+                <constraint firstAttribute="trailing" secondItem="Bbx-3N-J35" secondAttribute="trailing" constant="8" id="wJ1-sl-bUM"/>
+                <constraint firstItem="saZ-6p-8wz" firstAttribute="top" secondItem="ZEP-6e-8zV" secondAttribute="bottom" constant="19" id="z6t-3J-IRm"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="180" y="126"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Living Room.jpg" width="640" height="480"/>
+    </resources>
+</document>

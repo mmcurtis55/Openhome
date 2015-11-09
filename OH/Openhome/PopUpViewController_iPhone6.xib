@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="BRANDON_REG.TTF">
+            <string>BrandonGrotesque-Regular</string>
+            <string>BrandonGrotesque-Regular</string>
+            <string>BrandonGrotesque-Regular</string>
+            <string>BrandonGrotesque-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUpViewControllerSwift">
+            <connections>
+                <outlet property="popUpView" destination="FvE-39-pUU" id="drV-PD-bNg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="WrW-nh-j87"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="394"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FvE-39-pUU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="394"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•  NATURAL LIGHT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axb-n7-haz">
+                            <rect key="frame" x="8" y="324" width="359" height="21"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="BJL-1f-FDj"/>
+                                <constraint firstAttribute="height" constant="21" id="a5y-xx-gBS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•  OPEN AREA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reW-rC-fyc">
+                            <rect key="frame" x="8" y="295" width="359" height="21"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="G4k-8S-3IG"/>
+                                <constraint firstAttribute="height" constant="21" id="Uo5-Jm-6W5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIVING ROOM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwJ-DD-pku">
+                            <rect key="frame" x="8" y="8" width="359" height="35"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="YX0-z5-y6O"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="21"/>
+                            <color key="textColor" red="0.87843137250000003" green="0.12549019610000001" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="•  FLOOR-TO-CEILING WINDOWS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kp4-Jg-p5x">
+                            <rect key="frame" x="8" y="353" width="359" height="21"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="9Dq-7m-ogm"/>
+                                <constraint firstAttribute="height" constant="21" id="mUm-EF-VQp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Living Room.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Efp-Zo-kjF">
+                            <rect key="frame" x="0.0" y="51" width="375" height="221"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Efp-Zo-kjF" secondAttribute="height" multiplier="375:221" id="e3f-pv-j7a"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="axb-n7-haz" firstAttribute="top" secondItem="reW-rC-fyc" secondAttribute="bottom" constant="8" id="AjW-f4-7rV"/>
+                        <constraint firstItem="reW-rC-fyc" firstAttribute="top" secondItem="Efp-Zo-kjF" secondAttribute="bottom" constant="23" id="At5-Yg-91h"/>
+                        <constraint firstItem="kp4-Jg-p5x" firstAttribute="leading" secondItem="FvE-39-pUU" secondAttribute="leading" constant="8" id="EmE-cC-dPy"/>
+                        <constraint firstItem="Efp-Zo-kjF" firstAttribute="top" secondItem="RwJ-DD-pku" secondAttribute="bottom" constant="8" id="Fds-59-eqU"/>
+                        <constraint firstItem="RwJ-DD-pku" firstAttribute="top" secondItem="FvE-39-pUU" secondAttribute="top" constant="8" id="IuU-2R-nFb"/>
+                        <constraint firstItem="kp4-Jg-p5x" firstAttribute="top" secondItem="axb-n7-haz" secondAttribute="bottom" constant="8" id="OT1-5O-qK3"/>
+                        <constraint firstAttribute="trailing" secondItem="Efp-Zo-kjF" secondAttribute="trailing" id="c68-mB-QDQ"/>
+                        <constraint firstItem="axb-n7-haz" firstAttribute="leading" secondItem="FvE-39-pUU" secondAttribute="leading" constant="8" id="fnn-lP-vnh"/>
+                        <constraint firstItem="Efp-Zo-kjF" firstAttribute="leading" secondItem="FvE-39-pUU" secondAttribute="leading" id="jCI-xD-XpN"/>
+                        <constraint firstAttribute="trailing" secondItem="axb-n7-haz" secondAttribute="trailing" constant="8" id="jdU-4E-uZj"/>
+                        <constraint firstAttribute="trailing" secondItem="kp4-Jg-p5x" secondAttribute="trailing" constant="8" id="lMA-yz-CPd"/>
+                        <constraint firstAttribute="bottom" secondItem="kp4-Jg-p5x" secondAttribute="bottom" constant="20" id="lgV-h4-csQ"/>
+                        <constraint firstItem="RwJ-DD-pku" firstAttribute="leading" secondItem="FvE-39-pUU" secondAttribute="leading" constant="8" id="mUQ-gj-Efy"/>
+                        <constraint firstAttribute="trailing" secondItem="RwJ-DD-pku" secondAttribute="trailing" constant="8" id="p8q-3j-quZ"/>
+                        <constraint firstAttribute="trailing" secondItem="reW-rC-fyc" secondAttribute="trailing" constant="8" id="qx6-qJ-DOG"/>
+                        <constraint firstItem="reW-rC-fyc" firstAttribute="leading" secondItem="FvE-39-pUU" secondAttribute="leading" constant="8" id="s1c-0J-gOT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="FvE-39-pUU" secondAttribute="bottom" id="R6b-oD-Xs0"/>
+                <constraint firstItem="FvE-39-pUU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jiN-gm-aGx"/>
+                <constraint firstItem="FvE-39-pUU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sPV-Vy-nUg"/>
+                <constraint firstItem="FvE-39-pUU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xRl-Al-rbF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="375.5" y="277"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Living Room.jpg" width="640" height="480"/>
+    </resources>
+</document>

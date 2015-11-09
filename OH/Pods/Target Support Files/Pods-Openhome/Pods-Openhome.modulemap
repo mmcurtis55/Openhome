@@ -1,0 +1,6 @@
+framework module Pods_Openhome {
+  umbrella header "Pods-Openhome-umbrella.h"
+
+  export *
+  module * { export * }
+}
